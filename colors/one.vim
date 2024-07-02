@@ -789,10 +789,10 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Spelling highlighting ---------------------------------------------------{{{
-  call <sid>X('SpellBad',     s:hue_5,   s:syntax_bg, 'underline')
-  call <sid>X('SpellLocal',   '',        s:syntax_bg, 'underline')
-  call <sid>X('SpellCap',     s:hue_6_2, s:syntax_bg, 'underline')
-  call <sid>X('SpellRare',    s:hue_2,   s:syntax_bg, 'underline')
+  call <sid>X('SpellBad',     s:hue_5,   '', 'underline')
+  call <sid>X('SpellLocal',   '',        '', 'underline')
+  call <sid>X('SpellCap',     s:hue_6_2, '', 'underline')
+  call <sid>X('SpellRare',    s:hue_2,   '', 'underline')
   " }}}
 
   " Vim highlighting --------------------------------------------------------{{{
