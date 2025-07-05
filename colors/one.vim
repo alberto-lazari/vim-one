@@ -434,7 +434,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('Special',        s:hue_2,         '',          '')
   call <sid>X('SpecialChar',    '',              '',          '')
   call <sid>X('Tag',            '',              '',          '')
-  call <sid>X('Delimiter',      '',              '',          '')
+  call <sid>X('Delimiter',      s:mono_2,        '',          '')
   call <sid>X('SpecialComment', '',              '',          '')
   call <sid>X('Debug',          '',              '',          '')
   call <sid>X('Underlined',     '',              '',          'underline')
