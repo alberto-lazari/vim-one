@@ -351,6 +351,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   let s:syntax_fg = s:mono_1
   let s:syntax_fold_bg = s:mono_3
 
+  let s:none = ['NONE', 'NONE']
+
   " }}}
 
   " Vim editor color --------------------------------------------------------{{{
@@ -389,8 +391,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('TabLineFill',  s:mono_3,        s:visual_grey,    'none')
   call <sid>X('TabLineSel',   s:syntax_bg,     s:hue_2,          '')
   call <sid>X('Title',        s:syntax_fg,     '',               'bold')
-  call <sid>X('Visual',       '',              s:visual_grey,    '')
-  call <sid>X('VisualNOS',    '',              s:visual_grey,    '')
+  call <sid>X('Visual',       s:none,          s:visual_grey,    '')
+  call <sid>X('VisualNOS',    s:none,          s:visual_grey,    '')
   call <sid>X('WarningMsg',   s:hue_5,         '',               '')
   call <sid>X('TooLong',      s:hue_5,         '',               '')
   call <sid>X('WildMenu',     s:syntax_fg,     s:mono_3,         '')
