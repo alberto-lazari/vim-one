@@ -352,6 +352,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   let s:syntax_fold_bg = s:mono_3
 
   let s:none = ['NONE', 'NONE']
+  " Transparent background
+  let s:syntax_bg = s:none
 
   " }}}
 
